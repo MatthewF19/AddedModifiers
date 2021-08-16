@@ -2,36 +2,40 @@
   "sharedDir": "shared",
   "dependenciesDir": "extern",
   "info": {
-    "name": "Inferno._.",
+    "name": "Added Modifiers",
     "id": "AddedModifiers",
-    "version": "1.0.11",
+    "version": "2.0.7",
     "url": null,
     "additionalData": {}
   },
   "dependencies": [
     {
+      "id": "beatsaber-hook",
+      "versionRange": "^2.2.4",
+      "additionalData": {
+        "extraFiles": [
+          "src/inline-hook"
+        ]
+      }
+    },
+    {
       "id": "codegen",
-      "versionRange": "^0.6.2",
+      "versionRange": "^0.12.5",
       "additionalData": {}
     },
     {
       "id": "custom-types",
-      "versionRange": "*",
+      "versionRange": "^0.12.6",
       "additionalData": {}
     },
     {
       "id": "questui",
-      "versionRange": "*",
+      "versionRange": "^0.10.1",
       "additionalData": {}
     },
     {
       "id": "bs-utils",
       "versionRange": "*",
-      "additionalData": {}
-    },
-    {
-      "id": "beatsaber-hook",
-      "versionRange": "^1.0.12",
       "additionalData": {}
     }
   ],
